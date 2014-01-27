@@ -1,4 +1,11 @@
 GiantRobot::Application.routes.draw do
+  # root :to => 'robots#index'
+
+  # resources :robots
+
+  get '/' => 'robots#index'
+  get '/create' => 'robots#create'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
