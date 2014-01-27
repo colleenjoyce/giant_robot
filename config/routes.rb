@@ -1,4 +1,7 @@
 GiantRobot::Application.routes.draw do
+
+  get '/' => 'robots#index'
+  get '/repair' =>'robot#update'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
