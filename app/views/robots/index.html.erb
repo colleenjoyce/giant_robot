@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1>Hey Robots!</h1>
 
 <h1><% @robots %></h1>
@@ -11,3 +12,13 @@
 	</table>
 	<label for=""></label>
 </form> -->
+=======
+<h1>Robots!</h1>
+<table>
+        <% @robots.each do |robot|  %>
+        <tr>
+                <td><%= robot.name %></td>
+        </tr>
+        <% end %>
+</table>
+>>>>>>> b46ac1bb3e5e6c12ddedab09e0b2c3a530c2bce1
