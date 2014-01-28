@@ -1,8 +1,22 @@
 <<<<<<< HEAD
 class RobotsController < ActionController::Base
+<<<<<<< HEAD
  	
 	def index
 		@robots = Robot.all
+=======
+
+  def update
+    @robot = Robot.find(params[:id])
+  end
+
+  def destroy
+    @robot
+  end
+
+end
+
+>>>>>>> cebb99873c262be52d655a215ddc331e8d73cb93
 =======
 class RobotsController < ApplicationController
 
@@ -24,3 +38,4 @@ class RobotsController < ApplicationController
 	end
 
 end
+>>>>>>> 6543dd27a156c3f2173bd28194ec68665e5821d3
