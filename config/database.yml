@@ -3,7 +3,6 @@ development:
   encoding: unicode
   database: giant_robot_development
   pool: 5
-  username: Brad
   password:
 
 test:
@@ -11,7 +10,5 @@ test:
   encoding: unicode
   database: giant_robot_test
   pool: 5
-  username: Brad
   password:
-
 
