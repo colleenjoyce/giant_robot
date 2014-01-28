@@ -6,6 +6,7 @@ GiantRobot::Application.routes.draw do
 =======
   get '/' => "robots#index"
   resources :robot
+<<<<<<< HEAD
 
 >>>>>>> 38e3e54cbe46e94d2f9b7b952f88cb44d073bff6
   # The priority is based upon order of creation:
@@ -64,4 +65,6 @@ GiantRobot::Application.routes.draw do
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id))(.:format)'
+=======
+>>>>>>> 6543dd27a156c3f2173bd28194ec68665e5821d3
 end
